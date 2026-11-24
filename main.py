@@ -5,6 +5,7 @@ Writes one original line of plain text (max 200 characters) — a review of
 planet Earth left by an alien tourist — to /output/entry.txt.
 
 Pure standard library, deterministic: the same bytes on every run.
+The entry is 119 bytes with no trailing newline.
 """
 import os
 
